@@ -1,0 +1,22 @@
+# git 的忽略文件
+
+# 忽略所有后缀为 a 的文件
+*.a
+
+# 不忽略所有的 lib.a 文件
+!lib.a
+
+# 只忽略当前目录下的 TODO 文件
+/TODO
+
+# 忽略任何目录下名为 build 的目录
+build/
+
+# 忽略 doc/notes.txt
+doc/notes.txt
+
+# 忽略 index.css
+/index.css
+
+# 忽略 test 下所有文件
+test/
